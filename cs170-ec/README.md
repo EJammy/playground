@@ -1,10 +1,6 @@
 # What is this?
 [Metric tsp](https://en.wikipedia.org/wiki/Travelling_salesman_problem#Metric) approximation for cs170 that I should've documented, but I did not, so I'm writing this up 4 months later. See [hw12-coding-instructions.pdf](hw12-coding-instructions.pdf)
 
-Got 10th place in the contest.
-
-![leaderboard](leaderboard.png)
-
 # Very messy explaination of how it works
 Main function is `improved_tsp_approximation`, which runs the main algorithm `metric_tsp_approximation` and `improve` several times.
 
@@ -20,3 +16,8 @@ Attemps to improve by swapping.
 
 ## Putting it all together
 We run the algorithm multiple times and pick the best run, with a time limit on each test case. Some commented out code runs the algorithm in parallel for faster local testing.
+
+# Result
+Got 10th place on the leaderboard.
+
+![leaderboard](leaderboard.png)
